@@ -97,7 +97,7 @@ int main() {
         cin >> A1 >> B1 >> C1;
 
         // Nhập hệ số của đường thẳng thứ hai
-        cout << "Nhập he so cua duong thang thu hai (A2x + B2y + C2 = 0): ";
+        cout << "Nhap he so cua duong thang thu hai (A2x + B2y + C2 = 0): ";
         cin >> A2 >> B2 >> C2;
 
         // Gọi hàm so sánh hai đường thẳng trong không gian 2 chiều
