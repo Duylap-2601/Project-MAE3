@@ -11,11 +11,6 @@ struct Vector3D {
     double x, y, z;
 };
 
-// Cấu trúc điểm trong không gian 2 chiều
-struct Point2D {
-    double x, y;
-};
-
 // Hàm tính định thức của ma trận hệ số 2 chiều
 double determinant2D(double a, double b, double c, double d) {
     return a * d - b * c;
@@ -98,11 +93,11 @@ int main() {
         double A1, B1, C1, A2, B2, C2;
 
         // Nhập hệ số của đường thẳng thứ nhất
-        cout << "Nhap he so cua duong thang thu nhat (Ax + By + C = 0): ";
+        cout << "Nhap he so cua duong thang thu nhat (A1x + B1y + C1 = 0): ";
         cin >> A1 >> B1 >> C1;
 
         // Nhập hệ số của đường thẳng thứ hai
-        cout << "Nhập he so cua duong thang thu hai (Ax + By + C = 0): ";
+        cout << "Nhập he so cua duong thang thu hai (A2x + B2y + C2 = 0): ";
         cin >> A2 >> B2 >> C2;
 
         // Gọi hàm so sánh hai đường thẳng trong không gian 2 chiều
